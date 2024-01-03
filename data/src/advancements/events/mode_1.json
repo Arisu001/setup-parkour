@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "multi": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_mode_1\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "multi"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/multi"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "remove_max_player": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_rmv_xpc\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "remove_max_player"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/setmaxplayer"
+    }
+}

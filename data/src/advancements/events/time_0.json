@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "simp_time": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_time_0\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "simp_time"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/time"
+    }
+}

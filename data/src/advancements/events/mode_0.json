@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "solo": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_mode_0\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "solo"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/solo"
+    }
+}

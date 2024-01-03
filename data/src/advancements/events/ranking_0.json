@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "top_3": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_rkg_0\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "top_3"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/ranking"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "runner_time": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_time_2\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "runner_time"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/time"
+    }
+}

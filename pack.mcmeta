@@ -1,0 +1,30 @@
+{
+    "pack": {
+        "pack_format": 26,
+        "description": {
+            "text": "setup parkour — created by Arisu001",
+            "color": "gold",
+            "font": "default",
+            "bold": true,
+            "italic": true,
+            "clickEvent": {
+                "action": "open_url",
+                "value": "https://github.com/Arisu001"
+            },
+            "hoverEvent": {
+                "action": "show_text",
+                "value": "Click to see my all DataPacks :)",
+                "contents": false
+            }
+        }
+    },
+    "features": {
+        "enabled": [
+            "vanilla"
+        ]
+    },
+    "filter": {
+        "block": []
+    },
+    "language": "fr-fr"
+}

@@ -1,0 +1,18 @@
+{
+    "conditions": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "type": "player",
+                "type_specific": {
+                    "type": "player",
+                    "gamemode": "unset"
+                },
+                "nbt": "{Inventory: [{id: \"minecraft:armor_stand\"}]}"
+            }
+        }
+    ],
+    "function": "set_nbt",
+    "tag": "{Stopwatch: 1b, Setting: 1b, Tags: [\"sw\", \"stg\"], display: {Name: '[{\"text\": \"Setup Parkour\", \"color\": \"green\", \"bold\": true, \"italic\": false}, {\"text\": \": \", \"color\": \"yellow\"}, {\"text\": \"Paramètres\", \"color\": \"gray\"}]', Lore: ['[{\"text\": \"Info\", \"color\": \"blue\", \"italic\": false, \"underlined\": true}, {\"text\": \": \", \"color\": \"yellow\", \"underlined\": false}]', '\"\"', '{\"text\": \"Pose l\\'ArmorStand pour avoir\", \"color\": \"aqua\", \"bold\": false, \"underlined\": false}', '{\"text\": \" l\\'interface de configuration\", \"color\": \"aqua\", \"italic\": false}']}, Unbreakable: 1b, HideFlags: 7}"
+}

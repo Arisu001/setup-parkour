@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "setting": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_dflt\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "setting"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/default"
+    }
+}

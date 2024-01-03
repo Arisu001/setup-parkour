@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "no_time": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_no_time\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "no_time"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/time"
+    }
+}

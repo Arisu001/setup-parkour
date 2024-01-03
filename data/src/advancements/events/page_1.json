@@ -1,0 +1,21 @@
+{
+    "criteria": {
+        "next_page": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags: [\"int_next_page\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "next_page"
+        ]
+    ],
+    "rewards": {
+        "function": "src:event/page"
+    }
+}

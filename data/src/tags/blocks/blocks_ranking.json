@@ -1,0 +1,20 @@
+{
+    "replace": true,
+    "values": [
+        "quartz_block",
+        "chiseled_quartz_block",
+        "quartz_stairs",
+        "yellow_concrete",
+        "orange_concrete",
+        "brown_concrete",
+        "gold_block",
+        "iron_block",
+        "waxed_copper_block",
+        "netherite_block",
+        "tinted_glass",
+        "white_stained_glass",
+        "brown_stained_glass",
+        "orange_stained_glass",
+        "yellow_stained_glass"
+    ]
+}
